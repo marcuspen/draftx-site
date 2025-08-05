@@ -1,0 +1,301 @@
+52:
+  code: goals
+  name: Goals
+  short_code: G
+  description: Indicates the number of goals made.
+  points:
+    GK: 25.0
+    DEF: 12.0
+    MID: 9.0
+    FWD: 9.0
+57:
+  code: saves
+  name: Saves
+  short_code: SV
+  description: Indicates the number of saves made by a goalkeeper.
+  points:
+    GK: 2.5
+    DEF: 0
+    MID: 0
+    FWD: 0
+79:
+  code: assists
+  name: Assists
+  short_code: A
+  description: Indicates the number of assists.
+  points:
+    GK: 7.0
+    DEF: 7.0
+    MID: 6.0
+    FWD: 6.0
+83:
+  code: redcards
+  name: Redcards
+  short_code: RC
+  description: Indicates the number of straight red cards.
+  points:
+    GK: -7.0
+    DEF: -7.0
+    MID: -7.0
+    FWD: -7.0
+84:
+  code: yellowcards
+  name: Yellowcards
+  short_code: YC
+  description: Indicates the number of yellow cards.
+  points:
+    GK: -2.0
+    DEF: -2.0
+    MID: -2.0
+    FWD: -2.0
+86:
+  code: shots-on-target
+  name: Shots On Target
+  short_code: SOT
+  description: Indicates the number of shots which were on goal.
+  points:
+    GK: 2.0
+    DEF: 2.0
+    MID: 2.0
+    FWD: 2.0
+88:
+  code: goals-conceded
+  name: Goals Conceded
+  short_code: GC
+  description: Indicates the number of goals conceded.
+  points:
+    GK: 0
+    DEF: -2.0
+    MID: -1.0
+    FWD: -1.0
+94:
+  code: dispossessed
+  name: Dispossessed
+  short_code: DIS
+  description: Indicates the number of times the player was dispossessed.
+  points:
+    GK: -0.5
+    DEF: -0.5
+    MID: -0.5
+    FWD: -0.5
+96:
+  code: fouls-drawn
+  name: Fouls Drawn
+  short_code: FD
+  description: Indicates the number of fouls drawn by a player.
+  points:
+    GK: 0.25
+    DEF: 0.25
+    MID: 0.25
+    FWD: 0.25
+97:
+  code: blocked-shots
+  name: Blocked Shots
+  short_code: BS
+  description: Indicates the number of blocked shots.
+  points:
+    GK: 0
+    DEF: 2.0
+    MID: 0.5
+    FWD: 0.5
+99:
+  code: accurate-crosses
+  name: Accurate Crosses
+  short_code: AC
+  description: Indicates the number of interceptions by a player.
+  points:
+    GK: 0
+    DEF: 1.0
+    MID: 1.0
+    FWD: 1.0
+100:
+  code: interceptions
+  name: Interceptions
+  short_code: INT
+  description: Indicates the number of interceptions by a player.
+  points:
+    GK: 1.0
+    DEF: 1.5
+    MID: 1.5
+    FWD: 1.5
+101:
+  code: clearances
+  name: Clearances
+  short_code: CLR
+  description: Indicates the number of clearances by a player.
+  points:
+    GK: 1.0
+    DEF: 0.5
+    MID: 0.25
+    FWD: 0.25
+103:
+  code: punches
+  name: Punches
+  short_code: PUN
+  description: Indicates the number of punches off the ball by a goalkeeper.
+  points:
+    GK: 1.0
+    DEF: 0
+    MID: 0
+    FWD: 0
+107:
+  code: aerials-won
+  name: Aerials Won
+  short_code: AW
+  description: Indicates the number of aerial duels won by a player.
+  points:
+    GK: 1.0
+    DEF: 1.0
+    MID: 0.5
+    FWD: 0.5
+109:
+  code: successful-dribbles
+  name: Successful Dribbles
+  short_code: SD
+  description: Indicates the number of dribbles done successfully by a player.
+  points:
+    GK: 1.0
+    DEF: 1.0
+    MID: 1.0
+    FWD: 1.0
+112:
+  code: penalties-missed
+  name: Penalties Missed
+  short_code: PM
+  description: Indicates the number of penalties missed by a player.
+  points:
+    GK: 0
+    DEF: -4.0
+    MID: -4.0
+    FWD: -4.0
+113:
+  code: penalties-saved
+  name: Penalties Saved
+  short_code: PS
+  description: Indicates the number of penalties saved by a goalkeeper.
+  points:
+    GK: 8.0
+    DEF: 0
+    MID: 0
+    FWD: 0
+115:
+  code: penalties-won
+  name: Penalties Won
+  short_code: PW
+  description: Indicates the number of penalties won by a player.
+  points:
+    GK: 0
+    DEF: 2.0
+    MID: 2.0
+    FWD: 2.0
+116:
+  code: accurate-passes
+  name: Accurate Passes
+  short_code: AP
+  description: Indicates the number of accurate passes by a player.
+  points:
+    GK: 0.1
+    DEF: 0.1
+    MID: 0.1
+    FWD: 0.1
+117:
+  code: key-passes
+  name: Key Passes
+  short_code: KP
+  description: Indicates the number of key passes by a player.
+  points:
+    GK: 2.0
+    DEF: 2.0
+    MID: 2.0
+    FWD: 2.0
+119:
+  code: minutes-played
+  name: Minutes Played
+  short_code: MP
+  description: Indicates the number of minutes played by a player.
+  points:
+    GK: 0
+    DEF: 0
+    MID: 0
+    FWD: 0
+123:
+  code: long-balls-won
+  name: Long Balls Won
+  short_code: LBW
+  description: Indicates the number of accurate long balls played by the player.
+  points:
+    GK: 0.25
+    DEF: 0.25
+    MID: 0.25
+    FWD: 0.25
+194:
+  code: cleansheets
+  name: Cleansheets
+  short_code: CS
+  description: Indicates the number of clean sheets.
+  points:
+    GK: 0
+    DEF: 6.0
+    MID: 1.0
+    FWD: 0.0
+195:
+  code: goalkeeper-cleansheets
+  name: Goalkeeper Cleansheets
+  short_code: GCS
+  description: Indicates the number of clean sheets by a goalkeeper.
+  points:
+    GK: 8.0
+    DEF: 0
+    MID: 0
+    FWD: 0
+324:
+  code: own-goals
+  name: Own Goals
+  short_code: OG
+  description: Indicates the number of times a player put the ball into his own goal.
+  points:
+    GK: -5.0
+    DEF: -5.0
+    MID: -5.0
+    FWD: -5.0
+571:
+  code: error-lead-to-goal
+  name: Error Lead To Goal
+  short_code: EG
+  description: Indicates the number of times a player made a mistake which meant the
+    opposing team scored.
+  points:
+    GK: -1.0
+    DEF: -1.0
+    MID: -1.0
+    FWD: -1.0
+584:
+  code: good-high-claim
+  name: Good High Claim
+  short_code: GHC
+  description: Indicates the number of high claims made by a goalkeeper.
+  points:
+    GK: 1.5
+    DEF: 0
+    MID: 0
+    FWD: 0
+1535:
+  code: goalkeeper-goals-conceded
+  name: Goalkeeper Goals Conceded
+  short_code: GGC
+  description: Indicates the number of goals conceded by the goalkeeper.
+  points:
+    GK: -2.0
+    DEF: 0
+    MID: 0
+    FWD: 0
+27267:
+  code: tackles-won
+  name: Tackles Won
+  short_code: TKW
+  description: Number of tackles won per player.
+  points:
+    GK: 1.0
+    DEF: 1.25
+    MID: 1.5
+    FWD: 1.5
